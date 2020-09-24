@@ -22,7 +22,7 @@ body {
 	filter: dropshadow(color=#000000, offx=0, offy=1);	
 }
 h1 {
-	font-size:68px;
+	font-size:98px;
 	letter-spacing:-2px;  
 	text-align:center; 
 	padding-top:30px;
@@ -49,6 +49,13 @@ h4 {
 }
 p, pre {
 	margin:0 0 10px 0; 
+
+}
+.p{
+	text-align:center;
+}
+#p{
+	text-align:center;
 }
 code {
 	text-transform:uppercase !important;
@@ -56,7 +63,7 @@ code {
 	border-bottom:1px dotted #666;
 }
 small {
-	background:url(../images/alpha.png);
+	background:url(../../Git/images/alpha.png);
 	background:rgba(0, 0, 0, 0.8) url();	
 	border:1px solid #111;
 	font-size:15px;
@@ -104,7 +111,7 @@ height:100px;
 display: inline-block;
 }
 .facebookIcon, .linkedInIcon, .pintrestIcon{
-background: url('../images/retro-social-media-icons1.png') -74px 0px;
+background: url('../../Git/images/retro-social-media-icons1.png') -74px 0px;
 }
 
 .intagramIcon{
@@ -126,7 +133,7 @@ margin-top:40px;
 }
 #Content h2 {
 display: inline-block;
-margin: 25px 50px 45px;
+margin: 25px 0 45px;
 padding: 0px;
 text-align: center;
 font-size: 28px; 
@@ -200,9 +207,10 @@ display: inline-block;
 text-align:center;
 }
 .intro{
-font-size:10px;
+font-size:32px;
 font-weight:normal;
-margin-bottom:30px;
+margin-bottom: 20px;
+text-align: center;
 }
 .styled{
   margin-bottom: 30px;
@@ -220,13 +228,13 @@ background:rgba(255, 255, 255, 0.0);
 text-shadow: none;
 vertical-align: middle; 
 border-right:1px solid rgba(255, 255, 255, 0.36);
-
+text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
 }
 .styled div:last-child{
 border:none;
 }
 #overlay{ 
-background: rgba(0, 0, 0, 0.04) url(../trendset-coming-soon-web-template/images/overlays/06.png) top left repeat;
+background: rgba(0, 0, 0, 0.04) url(../../Git/trendset-coming-soon-web-template/images/overlays/06.png) top left repeat;
 background:rgba(0, 0, 0, 0.14);
 position: fixed;
 top: 0px;
@@ -287,10 +295,10 @@ margin:10px;
 	  height:80px;  
 	}
 	#Content h2 {
-	margin: 0px 50px 0px 50px;
+	margin: 0px 0px 0px 0px;
 	padding: 0px;
 	text-align: center;
-	font-size: 60px;
+	font-size: 29px;
 	font-weight: 300;
 	}
 	.styled {
