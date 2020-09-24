@@ -111,7 +111,7 @@ height:100px;
 display: inline-block;
 }
 .facebookIcon, .linkedInIcon, .pintrestIcon{
-background: url('../../Git/images/retro-social-media-icons1.png') -74px 0px;
+background: url('../images/retro-social-media-icons1.png') -74px 0px;
 }
 
 .intagramIcon{
@@ -234,7 +234,7 @@ text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
 border:none;
 }
 #overlay{ 
-background: rgba(0, 0, 0, 0.04) url(../../Git/trendset-coming-soon-web-template/images/overlays/06.png) top left repeat;
+background: rgba(0, 0, 0, 0.04) url(../images/overlays/06.png) top left repeat;
 background:rgba(0, 0, 0, 0.14);
 position: fixed;
 top: 0px;
